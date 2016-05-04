@@ -31,7 +31,14 @@ The intended usage is:
     vagrant box add shadowrobot/ros-indigo-desktop-trusty64
     vagrant up
     vagrant ssh
-    cd ~/catkin_ws/src/rss_work
+
+Then you can either:
+
+    cd ~/fmrb_demo
+
+or:
+
+    cd ~/dubsim_workspace
 
 
 Shutting down the Vagrant session:

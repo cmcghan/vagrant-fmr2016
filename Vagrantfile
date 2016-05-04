@@ -24,7 +24,11 @@
 #   vagrant box add shadowrobot/ros-indigo-desktop-trusty64
 #   vagrant up
 #   vagrant ssh
-#   cd ~/catkin_ws/src/rss_work
+#
+# Then you can either:
+#   cd ~/fmrb_demo
+# or:
+#   cd ~/dubsim_workspace
 #
 # We recommend you change your password after the first login (type 'passwd').
 # For X-Window forwarding through ssh in MacOSX or Linux, use 'vagrant ssh -- -X' instead
