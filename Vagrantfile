@@ -7,8 +7,6 @@
 #
 # The virtual machine created by this Vagrantfile requires: 2 CPUs, 4GB RAM, 40GB space
 # Your computer should have: virtual 4-core CPU or higher, >6GB memory, >50GB space free
-# -- Note that the VM needs 4GB RAM, not just 2GB RAM, due to the OMPL compilation erroring
-#    out quite a bit otherwise during the 'make update_bindings' step (see install_ompl.sh).
 #
 # Install VirtualBox and Vagrant on your machine first before attempting to use this file:
 # * VirtualBox: https://www.virtualbox.org/wiki/Downloads
@@ -87,7 +85,7 @@ Vagrant.configure(2) do |config|
   # Windows you can still use PuTTY+Xming to see GUI windows pop-up
   
   config.vm.provider :virtualbox do |vb|
-    vb.customize ["modifyvm", :id, "--name"  , "rss_git_indigo_development_machine"]
+    vb.customize ["modifyvm", :id, "--name"  , "fmr2016_v0.0.1"]
     vb.customize ["modifyvm", :id, "--memory", "4096"]
     vb.customize ["modifyvm", :id, "--cpus"  , 2]
     vb.customize ["modifyvm", :id, "--chipset", "ich9"]

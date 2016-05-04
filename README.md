@@ -16,7 +16,7 @@ See the individual Vagrantfile(s) for up-to-date information on requirements, se
 The virtual machine created by the (ROS indigo) Vagrantfile requires:
 * 2 CPUs, 4GB RAM, 40GB space (dynamic)
 So if you want to use this Vagrantfile, you will need:
-* a virtual 4-core CPU or higher, >8GB RAM, >30GB of space free
+* a virtual 4-core CPU or higher, >6GB RAM, >30GB of space free
 
 Note that the directory  
     `./vagrant-fmr2016`  
