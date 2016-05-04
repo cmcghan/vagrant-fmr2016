@@ -1,5 +1,5 @@
 # vagrant-fmr2016
-Vagrantfile for setting up a VM for the fmr2016 challenge (includes installation scripts) -- see fmrchallenge/fmrbenchmark on github
+Vagrantfile for setting up a VM for the fmr2016 challenge (includes installation scripts) -- see [github.com/fmrchallenge/fmrbenchmark](https://github.com/fmrchallenge/fmrbenchmark)
 
 
 Installation
