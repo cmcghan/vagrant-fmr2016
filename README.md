@@ -16,7 +16,7 @@ Requirements, Setup, Use
 See the individual Vagrantfile(s) for up-to-date information on requirements, setup, and use.
 
 The virtual machine created by the (ROS indigo) Vagrantfile requires:
-* 2 CPUs, 4GB RAM, 40GB space (dynamic)
+* 2 CPUs, 4GB RAM, 40GB space (dynamic)  
 So if you want to use this Vagrantfile, you will need:
 * a virtual 4-core CPU or higher, >6GB RAM, >30GB of space free
 
@@ -50,19 +50,19 @@ Choice of access to VirtualBox:
 
 Note that use of `vagrant ssh` will log you in as user "vagrant", while the VirtualBox GUI will initially log you in as user "ros".
 
-In order to work in the VirtualBox GUI as user `vagrant`, first create the Vagrantbox as per the instructions above, then run  
+In order to work in the VirtualBox GUI as user "vagrant", first create the Vagrantbox as per the instructions above, then run  
     `vagrant halt`  
 to stop the current session.
 
 After this:
 * Open your VirtualBox application.
-* Select the "fmr2016_v0.0.1" machine in the left panel, and click on "Start".
-You should be logged in automatically as user "ros".
+* Select the "fmr2016_v0.0.1" machine in the left panel, and click on "Start".  
+The VM session should start, and you should be logged in automatically as user "ros".
 
-To work as user "vagrant":
+Now, to work as user "vagrant":
 * Left-click on the gear symbol in the upper-right corner, and select "Log Out..."
 * Click on the right-hand icon ("Log Out").
-* Wait for the user menu to come up, then select user "vagrant". Default password is the login name.
+* Wait for the user menu to come up, then select user "vagrant". Default password is the login name.  
 You should now be logged into the VirtualBox VM as user "vagrant".
 
 
