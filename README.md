@@ -1,6 +1,8 @@
 # vagrant-fmr2016
 Vagrantfile for setting up a VM for the fmr2016 challenge (includes installation scripts) -- see [github.com/fmrchallenge/fmrbenchmark](https://github.com/fmrchallenge/fmrbenchmark)
 
+Note that I'm currently a couple versions behind the latest fmrbenchmark, and that the fmrbenchmark repository itself has its own Vagrantfile for installation (see: [github.com/fmrchallenge/fmrbenchmark/remote/Vagrantfile](https://github.com/fmrchallenge/fmrbenchmark/blob/master/remote/Vagrantfile)). The official script is slightly more lightweight than mine, in that my scripts both install the dependencies **and** do a full installation of the fmrbenchmark code... at least for the older version (fmrbenchmark-0.0.1) code.
+
 
 Installation
 ============
@@ -26,8 +28,8 @@ For the ROS indigo Vagrantbox:
 
 The intended usage is:
 
-    git clone https://github.com/cmcghan/vagrant-rss.git
-    cd vagrant-rss
+    git clone https://github.com/cmcghan/vagrant-fmr2016.git
+    cd vagrant-fmr2016
     vagrant box add shadowrobot/ros-indigo-desktop-trusty64
     vagrant up
     vagrant ssh
@@ -126,6 +128,6 @@ When code is modified or re-distributed, the LICENSE file should accompany the c
 Contact
 =======
 
-If you have any questions regarding the contents of this repository, please email Catharine McGhan at <cmcghan@cms.caltech.edu>.
+If you have any questions regarding the contents of this repository, please email Catharine McGhan at <cat.mcghan@uc.edu>.
 
 -EOF-
